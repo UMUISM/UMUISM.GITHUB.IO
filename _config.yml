@@ -1,1 +1,63 @@
-theme: jekyll-theme-cayman
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+date_format: "ordinal"
+name: GloomyGhost | MosquitoSeal
+title: GloomyGhost | MosquitoSeal 's GitHub
+subtitle:
+description: GloomyGhost | MosquitoSeal 's GitHub Repo
+keywords: GloomyGhost MosquitoSea GitHub
+favicon: /favicon.ico
+encoding: "utf-8"
+side_bar_repo_limit: 6
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author:
+github_username:
+github_simpleusername:
+organization:
+email:
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: Home
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+auto: true
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: GloomyGhost-MosquitoSeal/GloomyGhost-MosquitoSeal.github.io
+
