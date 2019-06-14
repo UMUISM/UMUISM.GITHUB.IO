@@ -3,10 +3,10 @@
 # ---------------- #
 baseurl:
 date_format: "ordinal"
-name: GloomyGhost | MosquitoSeal
-title: GloomyGhost | MosquitoSeal 's GitHub
+name: 有無教義
+title: 有無教義
 subtitle:
-description: GloomyGhost | MosquitoSeal 's GitHub Repo
+description: GloomyGhost | MosquitoSeal 's GitHub Small Repo
 keywords: GloomyGhost MosquitoSea GitHub
 favicon: /assets/images/logo.png
 encoding: "utf-8"
